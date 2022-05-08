@@ -1,0 +1,1183 @@
+{
+  "activateSkinCapeForUserVersion": false,
+  "additionalFiles": [],
+  "tlauncherVersion": 0,
+  "modpack": {
+    "modpackMemory": false,
+    "memory": 0,
+    "id": -9051758568700,
+    "name": "GF",
+    "version": {
+      "mods": [
+        {
+          "stateGameElement": "active",
+          "id": 9999999,
+          "name": "OptiFine",
+          "version": {
+            "id": 11001818,
+            "name": "OptiFine-1.12.2_HD_U_G5",
+            "metadata": {
+              "sha1": "db971767e460269f2317bb5df57d8f522be65e2c",
+              "size": 2457427,
+              "path": "mods/OptiFine-1.12.2_HD_U_G5.jar",
+              "url": "/mods/9999999/11001818/OptiFine-1.12.2_HD_U_G5.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573580621619,
+          "name": "animania-1.12.2-farm-1.0.2.28",
+          "version": {
+            "id": -573672572992,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ddc99341ac99825cee1922fa62be47bc6811a647",
+              "size": 5530204,
+              "path": "mods/animania-1.12.2-farm-1.0.2.28.jar",
+              "url": "mods/animania-1.12.2-farm-1.0.2.28.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573672613117,
+          "name": "Galacticraft-Planets-1.12.2-4.0.2.280",
+          "version": {
+            "id": -573741181293,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "327c7efe184f43b091788e15cbbee5409fabf79b",
+              "size": 3975978,
+              "path": "mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar",
+              "url": "mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573741223106,
+          "name": "ExtraCells-1.12.2-2.6.5",
+          "version": {
+            "id": -573788664904,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ad12ab8ae21ed1076dc2c60fd5ce5f5d1f416538",
+              "size": 2520745,
+              "path": "mods/ExtraCells-1.12.2-2.6.5.jar",
+              "url": "mods/ExtraCells-1.12.2-2.6.5.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573788788528,
+          "name": "Wawla-1.12.2-2.6.275",
+          "version": {
+            "id": -573805135598,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "783157c607149875de1e045d72382d370256257c",
+              "size": 94115,
+              "path": "mods/Wawla-1.12.2-2.6.275.jar",
+              "url": "mods/Wawla-1.12.2-2.6.275.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573805181785,
+          "name": "FluxNetworks-1.12.2-4.1.1.34",
+          "version": {
+            "id": -573825242772,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "561e36a86cfa0c19cdaddc897f47acebf1909ef3",
+              "size": 475994,
+              "path": "mods/FluxNetworks-1.12.2-4.1.1.34.jar",
+              "url": "mods/FluxNetworks-1.12.2-4.1.1.34.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573825287085,
+          "name": "CookingForBlockheads_1.12.2-6.5.0",
+          "version": {
+            "id": -573839203876,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8e7b73b39c0bdae84a4be445027747c9bae935c4",
+              "size": 595301,
+              "path": "mods/CookingForBlockheads_1.12.2-6.5.0.jar",
+              "url": "mods/CookingForBlockheads_1.12.2-6.5.0.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573839246825,
+          "name": "AsmodeusCore-1.12.2-0.0.28",
+          "version": {
+            "id": -573908184861,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "425cb220008a93f7443664186789af4a12b94718",
+              "size": 4105763,
+              "path": "mods/AsmodeusCore-1.12.2-0.0.28.jar",
+              "url": "mods/AsmodeusCore-1.12.2-0.0.28.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573908228836,
+          "name": "VeinMiner-1.12-0.38.2.647+b31535a",
+          "version": {
+            "id": -573922657448,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "007f517877ce7e78556bfb4038facff2bbb6a6c7",
+              "size": 128682,
+              "path": "mods/VeinMiner-1.12-0.38.2.647+b31535a.jar",
+              "url": "mods/VeinMiner-1.12-0.38.2.647+b31535a.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573922734597,
+          "name": "furniture-6.3.1-1.12.2",
+          "version": {
+            "id": -573963504054,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "05fcc338d115ba09266ab2da39027ae319efba18",
+              "size": 2435626,
+              "path": "mods/furniture-6.3.1-1.12.2.jar",
+              "url": "mods/furniture-6.3.1-1.12.2.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573963550778,
+          "name": "iChunUtil-1.12.2-7.2.2",
+          "version": {
+            "id": -573980048634,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2b53b0f9543c98adb0b89caa4da954a477259367",
+              "size": 581963,
+              "path": "mods/iChunUtil-1.12.2-7.2.2.jar",
+              "url": "mods/iChunUtil-1.12.2-7.2.2.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -573983626416,
+          "name": "Surge-1.12.2-2.0.79",
+          "version": {
+            "id": -574004361160,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f7197d44a0f1fb1af216d3ba6b7e3c1ed06a36e9",
+              "size": 957330,
+              "path": "mods/Surge-1.12.2-2.0.79.jar",
+              "url": "mods/Surge-1.12.2-2.0.79.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574004413547,
+          "name": "EnderIO-conduits-opencomputers-1.12.2-5.3.70",
+          "version": {
+            "id": -574014146087,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9ba8e5afe99e9937f059c45cd64b1653a12c488f",
+              "size": 72541,
+              "path": "mods/EnderIO-conduits-opencomputers-1.12.2-5.3.70.jar",
+              "url": "mods/EnderIO-conduits-opencomputers-1.12.2-5.3.70.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574014191849,
+          "name": "EnchantingPlus-1.12.2-5.0.176",
+          "version": {
+            "id": -574021227725,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f5b6bd9dc5b23101d8180934a2b7063b8c886c09",
+              "size": 142767,
+              "path": "mods/EnchantingPlus-1.12.2-5.0.176.jar",
+              "url": "mods/EnchantingPlus-1.12.2-5.0.176.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574021279062,
+          "name": "AIImprovements-1.12-0.0.1b3",
+          "version": {
+            "id": -574031946432,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ef4b64cd4fc10522ead1f659b81e471af455c3fe",
+              "size": 7266,
+              "path": "mods/AIImprovements-1.12-0.0.1b3.jar",
+              "url": "mods/AIImprovements-1.12-0.0.1b3.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574031998594,
+          "name": "classicbar-0.5.4",
+          "version": {
+            "id": -574045667525,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5b30591b84575961bc5cade13c45861ad1937216",
+              "size": 84084,
+              "path": "mods/classicbar-0.5.4.jar",
+              "url": "mods/classicbar-0.5.4.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574049021808,
+          "name": "EnderIO-base-1.12.2-5.3.70",
+          "version": {
+            "id": -574121475426,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5fc3fbe7cb6c7947865f1079ec0fa8c1d99fc0ec",
+              "size": 4981885,
+              "path": "mods/EnderIO-base-1.12.2-5.3.70.jar",
+              "url": "mods/EnderIO-base-1.12.2-5.3.70.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574121554525,
+          "name": "phosphor-forge-mc1.12.2-0.2.7-universal",
+          "version": {
+            "id": -574148114431,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1c75738ecd4bc5f7021b2b23ea04602aac3d16ec",
+              "size": 920264,
+              "path": "mods/phosphor-forge-mc1.12.2-0.2.7-universal.jar",
+              "url": "mods/phosphor-forge-mc1.12.2-0.2.7-universal.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574148191418,
+          "name": "EnderCore-1.12.2-0.5.76",
+          "version": {
+            "id": -574166109987,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a61fda64cfb0e3852690678fbd7375a1ea982884",
+              "size": 647959,
+              "path": "mods/EnderCore-1.12.2-0.5.76.jar",
+              "url": "mods/EnderCore-1.12.2-0.5.76.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574166165186,
+          "name": "disenchanter[1.12]1.8",
+          "version": {
+            "id": -574174469576,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0d76f6f183e8098be5d073e8fdaa0751bd3d5552",
+              "size": 172724,
+              "path": "mods/disenchanter[1.12]1.8.jar",
+              "url": "mods/disenchanter[1.12]1.8.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574174523176,
+          "name": "EnderIO-integration-tic-1.12.2-5.3.70",
+          "version": {
+            "id": -574176986692,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f6df5fd6cd1326326d2f930dde03ce0684e18909",
+              "size": 109766,
+              "path": "mods/EnderIO-integration-tic-1.12.2-5.3.70.jar",
+              "url": "mods/EnderIO-integration-tic-1.12.2-5.3.70.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574177035541,
+          "name": "mixinbooter-3.2",
+          "version": {
+            "id": -574197078679,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "eeaa5799f678b30182614128bef92cb07f2fd494",
+              "size": 1122216,
+              "path": "mods/mixinbooter-3.2.jar",
+              "url": "mods/mixinbooter-3.2.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574197134816,
+          "name": "CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha",
+          "version": {
+            "id": -574204778974,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "868d96028427e39495f441e43e60a9b77225b5ad",
+              "size": 90465,
+              "path": "mods/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
+              "url": "mods/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574204827436,
+          "name": "TexFix+V-1.12-4.0",
+          "version": {
+            "id": -574209306360,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "aa3ea97bdad05ac3c7b1d53b91ed71188e0b20b2",
+              "size": 7052,
+              "path": "mods/TexFix+V-1.12-4.0.jar",
+              "url": "mods/TexFix+V-1.12-4.0.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574209360034,
+          "name": "AppleSkin-mc1.12-1.0.14",
+          "version": {
+            "id": -574221250956,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d798af79de48be0f00c772943e5ec5a2fb5659fa",
+              "size": 33683,
+              "path": "mods/AppleSkin-mc1.12-1.0.14.jar",
+              "url": "mods/AppleSkin-mc1.12-1.0.14.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574221299155,
+          "name": "Mantle-1.12-1.3.3.55",
+          "version": {
+            "id": -574239589871,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a1e5d5c197dae3e92637cafb8cd996185191165b",
+              "size": 843486,
+              "path": "mods/Mantle-1.12-1.3.3.55.jar",
+              "url": "mods/Mantle-1.12-1.3.3.55.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574239657395,
+          "name": "EntityCulling-1.12.2-3.0.1",
+          "version": {
+            "id": -574253229627,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1c5e316835e07ebdc928c6b8f55aace3456c7588",
+              "size": 51190,
+              "path": "mods/EntityCulling-1.12.2-3.0.1.jar",
+              "url": "mods/EntityCulling-1.12.2-3.0.1.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574253285464,
+          "name": "EnderCore-1.12.2-0.5.76-core",
+          "version": {
+            "id": -574264319405,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "dd95e4671b861915b55a3161e89a8ccd75418b75",
+              "size": 39561,
+              "path": "mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar",
+              "url": "mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574264375629,
+          "name": "structurize-1.12.2-0.10.277-RELEASE",
+          "version": {
+            "id": -574285779793,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "045d25947539dbb830987ec658c10e0d111c74f3",
+              "size": 1133312,
+              "path": "mods/memory_repo/com/ldtteam/structurize/1.12.2-0.10.277-RELEASE/structurize-1.12.2-0.10.277-RELEASE.jar",
+              "url": "mods/memory_repo/com/ldtteam/structurize/1.12.2-0.10.277-RELEASE/structurize-1.12.2-0.10.277-RELEASE.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574285842317,
+          "name": "AutoSave-1.12.2-1.0.11",
+          "version": {
+            "id": -574287634364,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4be0e88b71f672f3fc4c726d3c0e8a0960b5cfa1",
+              "size": 90467,
+              "path": "mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar",
+              "url": "mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574287683913,
+          "name": "AutoConfig-1.12.2-1.0.2",
+          "version": {
+            "id": -574290839811,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6d9c92bc1cf07ded2f9e0949c7d91f3cf28946ea",
+              "size": 74722,
+              "path": "mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar",
+              "url": "mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574291089171,
+          "name": "Hats-1.12.2-7.1.1",
+          "version": {
+            "id": -574313767523,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "44d154180a99c02a2888649184794625d980acc2",
+              "size": 993630,
+              "path": "mods/Hats-1.12.2-7.1.1.jar",
+              "url": "mods/Hats-1.12.2-7.1.1.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574313832973,
+          "name": "Voice+Chat+Reloaded-1.2.4",
+          "version": {
+            "id": -574327581266,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1f343c5a6867cfe84745332fa0b6180cd35978d6",
+              "size": 422146,
+              "path": "mods/Voice+Chat+Reloaded-1.2.4.jar",
+              "url": "mods/Voice+Chat+Reloaded-1.2.4.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574327647378,
+          "name": "ClientFixer-1.12.2-1.9",
+          "version": {
+            "id": -574342708971,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "bbbfc3ae67fbd2a0888f060a2f0a3c36e700e798",
+              "size": 14337,
+              "path": "mods/ClientFixer-1.12.2-1.9.jar",
+              "url": "mods/ClientFixer-1.12.2-1.9.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574342780883,
+          "name": "MicdoodleCore-1.12.2-4.0.2.280",
+          "version": {
+            "id": -574353830911,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "906b6088c54a428d7a383796e7b77283cca7e573",
+              "size": 53300,
+              "path": "mods/MicdoodleCore-1.12.2-4.0.2.280.jar",
+              "url": "mods/MicdoodleCore-1.12.2-4.0.2.280.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574353898836,
+          "name": "animania-1.12.2-base-2.0.3.28",
+          "version": {
+            "id": -574388672408,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "bc5624de13f26fe83e7a99431a812531c8f558a9",
+              "size": 1626689,
+              "path": "mods/animania-1.12.2-base-2.0.3.28.jar",
+              "url": "mods/animania-1.12.2-base-2.0.3.28.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574388742345,
+          "name": "TConstruct-1.12.2-2.13.0.183",
+          "version": {
+            "id": -574452402789,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e37e1f05ad0eaf567497ce655bc877dc1778bd0f",
+              "size": 4023372,
+              "path": "mods/TConstruct-1.12.2-2.13.0.183.jar",
+              "url": "mods/TConstruct-1.12.2-2.13.0.183.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574452472201,
+          "name": "OpenSecurity-1.12.2-1.0-83",
+          "version": {
+            "id": -574467722005,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "f5a4bf54537b2a73ebaff64c0ee3b8d1274b7963",
+              "size": 599467,
+              "path": "mods/OpenSecurity-1.12.2-1.0-83.jar",
+              "url": "mods/OpenSecurity-1.12.2-1.0-83.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574467790842,
+          "name": "RealisticItemDrops-1.2.14",
+          "version": {
+            "id": -574472485414,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b9ab3f37a13c78d8c3c3fb4257374ad4ae90ae1b",
+              "size": 65733,
+              "path": "mods/RealisticItemDrops-1.2.14.jar",
+              "url": "mods/RealisticItemDrops-1.2.14.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574472543876,
+          "name": "MathParser.org-mXparser-4.0.0",
+          "version": {
+            "id": -574484090613,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8e3601497d3904daad2b003349af4e59e63d8272",
+              "size": 248324,
+              "path": "mods/1.12.2/MathParser.org-mXparser-4.0.0.jar",
+              "url": "mods/1.12.2/MathParser.org-mXparser-4.0.0.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574484154375,
+          "name": "OpenComputers-MC1.12.2-1.7.5.192",
+          "version": {
+            "id": -574875078964,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8eff5dc6b00a50b13ad6f3e6a838049bbf8306f8",
+              "size": 15643758,
+              "path": "mods/OpenComputers-MC1.12.2-1.7.5.192.jar",
+              "url": "mods/OpenComputers-MC1.12.2-1.7.5.192.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574875165314,
+          "name": "EnderIO-conduits-1.12.2-5.3.70",
+          "version": {
+            "id": -574906566265,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "66711a5c3be05cf65bf44e3869011db1701c7c79",
+              "size": 793889,
+              "path": "mods/EnderIO-conduits-1.12.2-5.3.70.jar",
+              "url": "mods/EnderIO-conduits-1.12.2-5.3.70.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574906638826,
+          "name": "VanillaFix-1.0.10-150",
+          "version": {
+            "id": -574932955622,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "646fc28aa81773662e33a3b447e830b816528fc9",
+              "size": 1025896,
+              "path": "mods/VanillaFix-1.0.10-150.jar",
+              "url": "mods/VanillaFix-1.0.10-150.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574933031584,
+          "name": "BearGryllsFanaticUpdate+1.12.2+1.0.4",
+          "version": {
+            "id": -574946237056,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4d51226db99d8bbe421e086c525cae7cd35953bd",
+              "size": 34463,
+              "path": "mods/BearGryllsFanaticUpdate+1.12.2+1.0.4.jar",
+              "url": "mods/BearGryllsFanaticUpdate+1.12.2+1.0.4.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574946314493,
+          "name": "FTBUtilities-5.4.1.131",
+          "version": {
+            "id": -574959609852,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d1f6545ac58ad895f2c8bcd0d4963d92f14b1938",
+              "size": 425832,
+              "path": "mods/FTBUtilities-5.4.1.131.jar",
+              "url": "mods/FTBUtilities-5.4.1.131.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -574959688614,
+          "name": "GalacticraftCore-1.12.2-4.0.2.280",
+          "version": {
+            "id": -575133296412,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7e15210ac47a4c96454fe664bc927ce3b95097dd",
+              "size": 10610662,
+              "path": "mods/GalacticraftCore-1.12.2-4.0.2.280.jar",
+              "url": "mods/GalacticraftCore-1.12.2-4.0.2.280.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575133375074,
+          "name": "Bookshelf-1.12.2-2.3.577",
+          "version": {
+            "id": -575157841860,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "718748821fc105a7e6e35b75a33083cd5c4e187a",
+              "size": 263529,
+              "path": "mods/Bookshelf-1.12.2-2.3.577.jar",
+              "url": "mods/Bookshelf-1.12.2-2.3.577.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575157920710,
+          "name": "BetterFps-1.4.8",
+          "version": {
+            "id": -575174335616,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "245235d5c67daff00ee658ee1f88ae8c3e4584b8",
+              "size": 155196,
+              "path": "mods/BetterFps-1.4.8.jar",
+              "url": "mods/BetterFps-1.4.8.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575174415203,
+          "name": "jei_1.12.2-4.16.1.302",
+          "version": {
+            "id": -575197066531,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3e88d2896ca868c3cedb65e117ad3a1b82488fa8",
+              "size": 653210,
+              "path": "mods/jei_1.12.2-4.16.1.302.jar",
+              "url": "mods/jei_1.12.2-4.16.1.302.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575197148393,
+          "name": "conarm-1.12.2-1.2.5.10",
+          "version": {
+            "id": -575219050126,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "373e8f6f56605d7eacb5d7d2f4e1ffea5e6d844b",
+              "size": 894824,
+              "path": "mods/conarm-1.12.2-1.2.5.10.jar",
+              "url": "mods/conarm-1.12.2-1.2.5.10.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575219133251,
+          "name": "forgemod_VoxelMap-1.9.27_for_1.12.2",
+          "version": {
+            "id": -575256146115,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4033f12a6437c44b70e4c54bd517ef3129555b12",
+              "size": 1676302,
+              "path": "mods/forgemod_VoxelMap-1.9.27_for_1.12.2.jar",
+              "url": "mods/forgemod_VoxelMap-1.9.27_for_1.12.2.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575256288239,
+          "name": "Chunk+Pregenerator-V1.12-2.5.1",
+          "version": {
+            "id": -575264087696,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2d250927e12b29dc82ce719233c5e07fc0224c83",
+              "size": 543872,
+              "path": "mods/Chunk+Pregenerator-V1.12-2.5.1.jar",
+              "url": "mods/Chunk+Pregenerator-V1.12-2.5.1.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575264169408,
+          "name": "foamfix-0.10.14-1.12.2",
+          "version": {
+            "id": -575280113318,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b7f247a306e9521f3bade46ea643989702be6a14",
+              "size": 242897,
+              "path": "mods/foamfix-0.10.14-1.12.2.jar",
+              "url": "mods/foamfix-0.10.14-1.12.2.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575280196768,
+          "name": "WailaHarvestability-mc1.12-1.1.12",
+          "version": {
+            "id": -575293324716,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7e1abc8dd61390285167284a5eb3bf0e57a52760",
+              "size": 31462,
+              "path": "mods/WailaHarvestability-mc1.12-1.1.12.jar",
+              "url": "mods/WailaHarvestability-mc1.12-1.1.12.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575293416502,
+          "name": "zerocore-1.12.2-0.1.2.9",
+          "version": {
+            "id": -575306130154,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "bc87c72b3aac54367b6641f9dbd41f6a218043cd",
+              "size": 227426,
+              "path": "mods/zerocore-1.12.2-0.1.2.9.jar",
+              "url": "mods/zerocore-1.12.2-0.1.2.9.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575306217103,
+          "name": "Pam's+HarvestCraft+1.12.2zg",
+          "version": {
+            "id": -575388207813,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a064b434253305424755943dd66f389855ade953",
+              "size": 4912890,
+              "path": "mods/Pam's+HarvestCraft+1.12.2zg.jar",
+              "url": "mods/Pam's+HarvestCraft+1.12.2zg.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575388338112,
+          "name": "performant-1.11",
+          "version": {
+            "id": -575397194747,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "033c589ceb8026d66ee9b2332185ae273fa77993",
+              "size": 8387,
+              "path": "mods/performant-1.11.jar",
+              "url": "mods/performant-1.11.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575397297809,
+          "name": "appliedenergistics2-rv6-stable-7",
+          "version": {
+            "id": -575459216794,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e5c3c11eafc5daf73652a2dabe855e3759caa8b5",
+              "size": 4062630,
+              "path": "mods/appliedenergistics2-rv6-stable-7.jar",
+              "url": "mods/appliedenergistics2-rv6-stable-7.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575459306055,
+          "name": "ExtremeReactors-1.12.2-0.4.5.68",
+          "version": {
+            "id": -575485906748,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "69dde2f0c2b2c204a66f5ae5c704a39f6b08c6ef",
+              "size": 1149733,
+              "path": "mods/ExtremeReactors-1.12.2-0.4.5.68.jar",
+              "url": "mods/ExtremeReactors-1.12.2-0.4.5.68.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575485996660,
+          "name": "particleculling-1.12.2-v1.3.1",
+          "version": {
+            "id": -575491505737,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "aef29745d35544a30d010fd31a8c64f9002509ae",
+              "size": 15289,
+              "path": "mods/particleculling-1.12.2-v1.3.1.jar",
+              "url": "mods/particleculling-1.12.2-v1.3.1.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575491595574,
+          "name": "animania-1.12.2-extra-1.0.2.28",
+          "version": {
+            "id": -575525985449,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5970c0bb661f35bae18f0aa981e25b89fa89c21b",
+              "size": 1926227,
+              "path": "mods/animania-1.12.2-extra-1.0.2.28.jar",
+              "url": "mods/animania-1.12.2-extra-1.0.2.28.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575526087698,
+          "name": "IronBackpacks-1.12.2-3.0.8-12",
+          "version": {
+            "id": -575543134949,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "50758105dabe8f0d4c6e311e14ad2c1f5673d2cd",
+              "size": 465363,
+              "path": "mods/IronBackpacks-1.12.2-3.0.8-12.jar",
+              "url": "mods/IronBackpacks-1.12.2-3.0.8-12.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575543231948,
+          "name": "randompatches-1.12.2-1.22.1.10",
+          "version": {
+            "id": -575555721652,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d45d3cadbbab3f2222059b2acb68d9620c6839a8",
+              "size": 293231,
+              "path": "mods/randompatches-1.12.2-1.22.1.10.jar",
+              "url": "mods/randompatches-1.12.2-1.22.1.10.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575555927312,
+          "name": "Hwyla-1.8.26-B41_1.12.2",
+          "version": {
+            "id": -575571469002,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7280d5c0dab42436549bcefc63ff64a1049e5501",
+              "size": 453778,
+              "path": "mods/Hwyla-1.8.26-B41_1.12.2.jar",
+              "url": "mods/Hwyla-1.8.26-B41_1.12.2.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575571567376,
+          "name": "modularmovements-1.0.1f",
+          "version": {
+            "id": -575581682438,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9350a3689d3fbb0bb96be19c03426bdc8d023f33",
+              "size": 51328,
+              "path": "mods/modularmovements-1.0.1f.jar",
+              "url": "mods/modularmovements-1.0.1f.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575581782662,
+          "name": "EnderIO-conduits-appliedenergistics-1.12.2-5.3.70",
+          "version": {
+            "id": -575595745040,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "880a52c4a592ff50fa247c445fad01f3f147c77e",
+              "size": 45909,
+              "path": "mods/EnderIO-conduits-appliedenergistics-1.12.2-5.3.70.jar",
+              "url": "mods/EnderIO-conduits-appliedenergistics-1.12.2-5.3.70.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575595843302,
+          "name": "FTBLib-5.4.7.2",
+          "version": {
+            "id": -575612534894,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7c20cd223bc2334edf153e074f35acdbcab3c976",
+              "size": 934370,
+              "path": "mods/FTBLib-5.4.7.2.jar",
+              "url": "mods/FTBLib-5.4.7.2.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -575612637543,
+          "name": "GalaxySpace-1.12.2-2.0.17",
+          "version": {
+            "id": -575772505236,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5fed19168bb0090cdccd36d151b3d9d6cba2ffa7",
+              "size": 9585511,
+              "path": "mods/GalaxySpace-1.12.2-2.0.17.jar",
+              "url": "mods/GalaxySpace-1.12.2-2.0.17.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        }
+      ],
+      "resourcePacks": [],
+      "maps": [],
+      "shaderpacks": [],
+      "forgeVersion": "14.23.5.2860",
+      "gameVersion": "1.12.2",
+      "id": -9051758576401,
+      "name": "1.0"
+    },
+    "userInstall": false,
+    "populateStatus": false
+  },
+  "source": "local_version_repo",
+  "jar": "1.12.2",
+  "skinVersion": false
+}

@@ -1,0 +1,604 @@
+{
+  "activateSkinCapeForUserVersion": false,
+  "tlauncherVersion": 0,
+  "modpack": {
+    "modpackMemory": false,
+    "memory": 0,
+    "id": -8947387408700,
+    "name": "PN",
+    "version": {
+      "mods": [
+        {
+          "stateGameElement": "active",
+          "id": 9999999,
+          "name": "OptiFine",
+          "version": {
+            "id": 11000129,
+            "name": "1.7.10 HD U E7",
+            "metadata": {
+              "sha1": "2130d7266224da6a7325051e37444f7e7c19277c",
+              "size": 1774165,
+              "path": "mods/OptiFine_1.7.10_HD_U_E7.jar",
+              "url": "/mods/9999999/null/OptiFine_1.7.10_HD_U_E7.jar"
+            }
+          },
+          "userInstall": false,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62850589721400,
+          "name": "CodeChickenLib-1.7.10-1.1.3.141-universal",
+          "version": {
+            "id": -62850682302300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "83ec0b20aaf7ec05e01ac42c1c99bada420af84d",
+              "size": 311450,
+              "path": "mods/1.7.10/CodeChickenLib-1.7.10-1.1.3.141-universal.jar",
+              "url": "mods/1.7.10/CodeChickenLib-1.7.10-1.1.3.141-universal.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62850682418400,
+          "name": "[1.7.10]bspkrsCore-universal-6.15",
+          "version": {
+            "id": -62850839798700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "b591d7b526794c0b9d22d10e0a0b46636c10fce3",
+              "size": 198525,
+              "path": "mods/1.7.10/[1.7.10]bspkrsCore-universal-6.15.jar",
+              "url": "mods/1.7.10/[1.7.10]bspkrsCore-universal-6.15.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62850839863400,
+          "name": "AIImprovements-1.7.10-0.0.1b19-dev",
+          "version": {
+            "id": -62850901395600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2c34459174f9e9b03569a7958cdf6e01a6ba49c4",
+              "size": 7443,
+              "path": "mods/AIImprovements-1.7.10-0.0.1b19-dev.jar",
+              "url": "mods/AIImprovements-1.7.10-0.0.1b19-dev.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62850901483000,
+          "name": "appliedenergistics2_mc1.7.10_rv3_beta_6",
+          "version": {
+            "id": -62855424130100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e8ada3103524805d4a84b544bdf8c286bbc2e2c7",
+              "size": 2924325,
+              "path": "mods/appliedenergistics2_mc1.7.10_rv3_beta_6.jar",
+              "url": "mods/appliedenergistics2_mc1.7.10_rv3_beta_6.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62855424214300,
+          "name": "BiblioCraft[v1.11.7][MC1.7.10]",
+          "version": {
+            "id": -62858533737200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "fb8af3a336e72c4268ef849f38a39b70771be8f3",
+              "size": 5452316,
+              "path": "mods/BiblioCraft[v1.11.7][MC1.7.10].jar",
+              "url": "mods/BiblioCraft[v1.11.7][MC1.7.10].jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62858533811700,
+          "name": "Bookshelf_1.7.10_1.0.4.187",
+          "version": {
+            "id": -62858598673000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7350f513ff0a4e2fb855dcfbac1df6c17f0af401",
+              "size": 230589,
+              "path": "mods/Bookshelf_1.7.10_1.0.4.187.jar",
+              "url": "mods/Bookshelf_1.7.10_1.0.4.187.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62858598746500,
+          "name": "Carpenter's Blocks v3.3.8.2 - MC 1.7.10",
+          "version": {
+            "id": -62858798166600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a237288349d19459fdd99e8cc1df10ddc3f2ffc0",
+              "size": 515159,
+              "path": "mods/Carpenter's Blocks v3.3.8.2 - MC 1.7.10.jar",
+              "url": "mods/Carpenter's Blocks v3.3.8.2 - MC 1.7.10.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62858798256200,
+          "name": "CarpentersBlocksCachedResources",
+          "version": {
+            "id": -62858836748300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "99571af985bc92bad7ec0b14c825eaec85082dd8",
+              "size": 31297,
+              "path": "mods/carpentersblocks/CarpentersBlocksCachedResources.zip",
+              "url": "mods/carpentersblocks/CarpentersBlocksCachedResources.zip"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62858836828600,
+          "name": "Chunk Pregenerator-V1.7.10-2.5.1",
+          "version": {
+            "id": -62859255448400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "403125a9c34066ba6214ebe8961fa0f99b03b4c5",
+              "size": 2006599,
+              "path": "mods/Chunk Pregenerator-V1.7.10-2.5.1.jar",
+              "url": "mods/Chunk Pregenerator-V1.7.10-2.5.1.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62859255569500,
+          "name": "clientfixer-1.0",
+          "version": {
+            "id": -62859306438300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4ffc7464d58eb140045b3e7a4e3e0e0eb66a588b",
+              "size": 15005,
+              "path": "mods/clientfixer-1.0.jar",
+              "url": "mods/clientfixer-1.0.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62859306539000,
+          "name": "CodeChickenCore-1.7.10-1.0.7.48-universal",
+          "version": {
+            "id": -62859474974000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "42340568aa6c7d6a9333e30540d4a9803d262f5d",
+              "size": 143985,
+              "path": "mods/CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+              "url": "mods/CodeChickenCore-1.7.10-1.0.7.48-universal.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62859475079100,
+          "name": "coroutil-1.7.10-1.1.6",
+          "version": {
+            "id": -62859784929800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8f1de498a4bf1b3650bef394209be17648dc1909",
+              "size": 1297035,
+              "path": "mods/coroutil-1.7.10-1.1.6.jar",
+              "url": "mods/coroutil-1.7.10-1.1.6.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62859785022100,
+          "name": "CreativeCore v1.3.24 mc1.7.10",
+          "version": {
+            "id": -62859796053800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5671ec8cc0d164262c34863bfeb2a4de2f60f4bc",
+              "size": 265199,
+              "path": "mods/CreativeCore v1.3.24 mc1.7.10.jar",
+              "url": "mods/CreativeCore v1.3.24 mc1.7.10.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62859796135300,
+          "name": "DisenchanterMod-[1.7.10]1.6",
+          "version": {
+            "id": -62859845901100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "ccf94eef7acfbaff30ace59b8a5f4283275ecb09",
+              "size": 102919,
+              "path": "mods/DisenchanterMod-[1.7.10]1.6.jar",
+              "url": "mods/DisenchanterMod-[1.7.10]1.6.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62859846288500,
+          "name": "enchantingplus_1.7.10_3.0.2_d",
+          "version": {
+            "id": -62860006305000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2b84db09fc8875c2726a4b93d3ed37bc6ba16340",
+              "size": 102858,
+              "path": "mods/enchantingplus_1.7.10_3.0.2_d.jar",
+              "url": "mods/enchantingplus_1.7.10_3.0.2_d.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62860006520500,
+          "name": "EnviroMine-1.3.124",
+          "version": {
+            "id": -62862111109500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "db9bd83c194405b894d947f5172cc4b8e5262505",
+              "size": 5772453,
+              "path": "mods/EnviroMine-1.3.124.jar",
+              "url": "mods/EnviroMine-1.3.124.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62862111222700,
+          "name": "ExtraCells-1.7.10-2.3.14b200",
+          "version": {
+            "id": -62862612458500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "618e59eff75f983d000406df4b34df1807c346ab",
+              "size": 1481351,
+              "path": "mods/ExtraCells-1.7.10-2.3.14b200.jar",
+              "url": "mods/ExtraCells-1.7.10-2.3.14b200.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62862612591700,
+          "name": "FoamFix-1.7.10-universal-1.0.0",
+          "version": {
+            "id": -62862784977200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3bc9b1b661d0eacaecc7b3839e49ba2aad4dc0e6",
+              "size": 210193,
+              "path": "mods/FoamFix-1.7.10-universal-1.0.0.jar",
+              "url": "mods/FoamFix-1.7.10-universal-1.0.0.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62862785099400,
+          "name": "FTBLib-1.7.10-1.0.18.3",
+          "version": {
+            "id": -62863337729100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8e02aa6dd58cd73c975cd8ef91f892f0efa5aca6",
+              "size": 667443,
+              "path": "mods/FTBLib-1.7.10-1.0.18.3.jar",
+              "url": "mods/FTBLib-1.7.10-1.0.18.3.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62863337969000,
+          "name": "ftbutilities-1.7.10-1.0.18.3",
+          "version": {
+            "id": -62863405519600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e8480ca22729204f2cc033a0b30b351432bc04cd",
+              "size": 315302,
+              "path": "mods/ftbutilities-1.7.10-1.0.18.3.jar",
+              "url": "mods/ftbutilities-1.7.10-1.0.18.3.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62863405608000,
+          "name": "GlibysVC-1.7.10-0.6.2a",
+          "version": {
+            "id": -62863725791500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1ef019fabf9f61c5f66884b0827394f7d7a9f01f",
+              "size": 399246,
+              "path": "mods/GlibysVC-1.7.10-0.6.2a.jar",
+              "url": "mods/GlibysVC-1.7.10-0.6.2a.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62863725883900,
+          "name": "HBM-NTM-.1.0.27_X4130H1",
+          "version": {
+            "id": -62868632762200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "949e628a2df01fe8e9cc1cf5bed716a9b52d65c9",
+              "size": 42187591,
+              "path": "mods/HBM-NTM-.1.0.27_X4130H1.jar",
+              "url": "mods/HBM-NTM-.1.0.27_X4130H1.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62868633240500,
+          "name": "IronBackpacks-1.7.10-1.2.20",
+          "version": {
+            "id": -62868748309300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "5971e86ce56440e9be57fdc2100c034c7ab07a0d",
+              "size": 354672,
+              "path": "mods/IronBackpacks-1.7.10-1.2.20.jar",
+              "url": "mods/IronBackpacks-1.7.10-1.2.20.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62868748417200,
+          "name": "MorePlayerModels_1.7.10b",
+          "version": {
+            "id": -62868868058100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e97bd9e89cda86081937b139642d58f39913ec51",
+              "size": 832555,
+              "path": "mods/MorePlayerModels_1.7.10b.jar",
+              "url": "mods/MorePlayerModels_1.7.10b.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62868868189200,
+          "name": "NotEnoughItems-1.7.10-1.0.5.120-universal",
+          "version": {
+            "id": -62868902885300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a7587d48f19b6e9e8791c0e3d2e9aca3b36882c7",
+              "size": 513136,
+              "path": "mods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+              "url": "mods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62868902984300,
+          "name": "RealBench-1.2.0",
+          "version": {
+            "id": -62868916361800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6417596a832c5cac4772093e11c68a70ae7eef2b",
+              "size": 14579,
+              "path": "mods/RealBench-1.2.0.jar",
+              "url": "mods/RealBench-1.2.0.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62868916461000,
+          "name": "RTG-1.7.10-1.1.1.7",
+          "version": {
+            "id": -62869087789200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7d542c0e06b4a543468f033e365fee01d8bdd91b",
+              "size": 2444070,
+              "path": "mods/RTG-1.7.10-1.1.1.7.jar",
+              "url": "mods/RTG-1.7.10-1.1.1.7.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62869087935700,
+          "name": "VeinMiner_1.7.10_0.36.0.49628a7f13",
+          "version": {
+            "id": -62869113380600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "bf8198322111c0b1c0af097c0f926065142f56cf",
+              "size": 119475,
+              "path": "mods/VeinMiner_1.7.10_0.36.0.49628a7f13.jar",
+              "url": "mods/VeinMiner_1.7.10_0.36.0.49628a7f13.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62869113505600,
+          "name": "WailaHarvestability_mc1.7.10_1.1.6",
+          "version": {
+            "id": -62869128828200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3dee679f808fc8cc564c94a674a18ed3d497afdf",
+              "size": 28800,
+              "path": "mods/WailaHarvestability_mc1.7.10_1.1.6.jar",
+              "url": "mods/WailaHarvestability_mc1.7.10_1.1.6.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62869128928500,
+          "name": "Waila_1.5.10_1.7.10",
+          "version": {
+            "id": -62869154904300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7a874ee79a88cf66bd5355c8393069b3ac39c631",
+              "size": 544821,
+              "path": "mods/Waila_1.5.10_1.7.10.jar",
+              "url": "mods/Waila_1.5.10_1.7.10.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62869155044400,
+          "name": "Wawla_1.7.10_1.0.5.120",
+          "version": {
+            "id": -62869170016900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "85fb074320b2cacb1dec790ab894f7d57a67b2ef",
+              "size": 73037,
+              "path": "mods/Wawla_1.7.10_1.0.5.120.jar",
+              "url": "mods/Wawla_1.7.10_1.0.5.120.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62869170105900,
+          "name": "XaerosWorldMap_1.14.1.13_Forge_1.7.10",
+          "version": {
+            "id": -62869240919100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9927d9b8e9c86c547da731696d72b3b7358f9d9c",
+              "size": 447154,
+              "path": "mods/XaerosWorldMap_1.14.1.13_Forge_1.7.10.jar",
+              "url": "mods/XaerosWorldMap_1.14.1.13_Forge_1.7.10.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -62869241041100,
+          "name": "Xaeros_Minimap_21.10.18_Forge_1.7.10",
+          "version": {
+            "id": -62869306644800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "63bb908666305189e384a8f66229ecfc8a44eb0b",
+              "size": 737907,
+              "path": "mods/Xaeros_Minimap_21.10.18_Forge_1.7.10.jar",
+              "url": "mods/Xaeros_Minimap_21.10.18_Forge_1.7.10.jar"
+            }
+          },
+          "userInstall": true,
+          "populateStatus": false
+        }
+      ],
+      "resourcePacks": [],
+      "maps": [],
+      "shaderpacks": [],
+      "forgeVersion": "10.13.4.1614",
+      "gameVersion": "1.7.10",
+      "id": -8947387497701,
+      "name": "1.0"
+    },
+    "userInstall": false,
+    "populateStatus": false
+  },
+  "source": "local_version_repo",
+  "jar": "1.7.10",
+  "skinVersion": false
+}

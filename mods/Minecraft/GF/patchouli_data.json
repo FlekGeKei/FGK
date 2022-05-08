@@ -1,0 +1,20 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "pyrotech:book": {
+      "viewedEntries": [
+        "pyrotech:bloom/crafting_table",
+        "pyrotech:survive/introduction",
+        "pyrotech:survive/campfire"
+      ],
+      "bookmarks": [],
+      "history": [
+        "pyrotech:survive/campfire",
+        "pyrotech:survive/introduction",
+        "pyrotech:bloom/crafting_table"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
