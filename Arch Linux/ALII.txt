@@ -87,8 +87,8 @@
 		# Конфигурируем время и дату
 		ln -sf /usr/share/zoneinfo/Europe/Kiev /etc/localtime
 			# Вместо Kiev прописоваем часовой пояс (регион)
-			#
-			hwclock --systohc
+		#
+		hwclock --systohc
 		# Русификация систеы
 			# Открываем конфиг с локалями
 			nano /etc/locale.gen
@@ -236,13 +236,13 @@
 		# Включаем репозитории
 		sudo nano /etc/pacman.conf
 			# multilib
-			# Декоментируем строчки (убираем # )
-				#[multilib]
-				#Include = /etc/pacman.d/mirrorlist
+				# Декоментируем строчки (убираем # )
+					#[multilib]
+					#Include = /etc/pacman.d/mirrorlist
 			# chaotic-aur
-			# Добавляем в конец файла
-				[chaotic-aur]
-				Include = /etc/pacman.d/chaotic-mirrorlist
+				# Добавляем в конец файла
+					[chaotic-aur]
+					Include = /etc/pacman.d/chaotic-mirrorlist
 			# Сохраняем и выходим из nano (^ = ctrl)
 				^O 
 				# Ентер
@@ -255,9 +255,11 @@
 		# AMD
 			sudo pacman -Syu lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
 	# Ставим окружение рабочего стола например KDE Plasma
-		sudo pacman -S xorg xorg-server plasma plasma-wayland-session egl-wayland sddm sddm-kcm packagekit-qt5 pulseaudio pulseaudio-jack google-chrome pamac-aur pamac-tray-icon-plasma dolphin konsole spectacle onlyoffice-bin ananicy nohang noto-fonts noto-fonts-cjk noto-fonts-emoji
+		sudo pacman -S xorg xorg-server plasma plasma-wayland-session egl-wayland sddm sddm-kcm packagekit-qt5 pulseaudio pulseaudio-jack google-chrome pamac-aur pamac-tray-icon-plasma dolphin konsole spectacle onlyoffice-bin ananicy nohang noto-fonts noto-fonts-cjk noto-fonts-emoji htop gewenwiev qbittorent vlc ark unrar rar 7-zip audacious
+		# Опционально
+			kdeconnect gimp discord steam telegram-desktop haguichi wine winetricks
 		# Настраиваем автозагрузки
-		sudo systemctl enable --now nohang-desktop
+		sudo systemctl enable nohang
 		sudo systemctl enable ananicy
 		sudo systemctl sddm
 	# Перезагружаемся
@@ -291,5 +293,3 @@
 			sudo pacman -S zsh zsh-completions
 			# Установка Oh My ZSH! (см https://github.com/ohmyzsh/ohmyzsh)
 			sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-		# Создание файла подкачки
-			#
