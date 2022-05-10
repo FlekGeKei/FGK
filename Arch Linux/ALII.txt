@@ -255,9 +255,9 @@
 		# AMD
 			sudo pacman -Syu lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
 	# Ставим окружение рабочего стола например KDE Plasma
-		sudo pacman -S xorg xorg-server plasma plasma-wayland-session egl-wayland sddm sddm-kcm packagekit-qt5 pulseaudio pulseaudio-jack google-chrome pamac-aur pamac-tray-icon-plasma dolphin konsole spectacle onlyoffice-bin ananicy nohang noto-fonts noto-fonts-cjk noto-fonts-emoji htop gewenwiev qbittorent vlc ark unrar rar 7-zip audacious
+		sudo pacman -S xorg xorg-server plasma plasma-wayland-session egl-wayland sddm sddm-kcm packagekit-qt5 pulseaudio pulseaudio-jack vivaldi pamac-aur pamac-tray-icon-plasma dolphin konsole spectacle onlyoffice-bin ananicy nohang noto-fonts noto-fonts-cjk noto-fonts-emoji htop gewenwiev qbittorent vlc ark unrar rar 7-zip audacious
 		# Опционально
-			kdeconnect gimp discord steam telegram-desktop haguichi wine winetricks
+			kdeconnect gimp discord steam telegram-desktop haguichi wine winetricks speedcrunch github-desktop
 		# Настраиваем автозагрузки
 		sudo systemctl enable nohang
 		sudo systemctl enable ananicy
