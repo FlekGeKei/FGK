@@ -206,12 +206,6 @@
 		useradd -m -G wheel -s /bin/bash //имя пользователя в нижнем регистре на латиниц\\
 		# Создаём пароль для созданного пользователь (пароль не должен отображаться)
 		passwd //имя созданного пользователя\\
-	# Выходим из root'a
-	exit
-	# Логигимся под созданным пользователем
-	# Запускаем сетевую службу
-	sudo systemctl enable NetworkManager
-	# Перезагружаемся (входим под обычным пользователем)
 	# Подключаемся к интернетунету
 		# Если и-нет проводной
 			dhcpcd
@@ -225,7 +219,7 @@
 			# Включаем wifi
 			ip link set //имя безброводного интерфейса(пример wlan0)\\ up
 			# Подключаемся
-			sudo nmtui
+			nmtui
 			# Проверяем подключение
 			ping google.com
 		# Если интернет не работает
@@ -239,6 +233,12 @@
 				# Ентер
 				^X 
 			# Можно ещё перезагружаться пока незаработает
+	# Выходим из root'a
+	exit
+	# Логигимся под созданным пользователем
+	# Запускаем сетевую службу
+	sudo systemctl enable NetworkManager
+	# Перезагружаемся (входим под обычным пользователем)
 	# Настраиваем репозитории
 		# Добавляем chaotic-aur (см https://aur.chaotic.cx/ ) на данный момент это
 		sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
@@ -266,9 +266,9 @@
 		# AMD
 			sudo pacman -Syu lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
 	# Ставим окружение рабочего стола например KDE Plasma
-		sudo pacman -S xorg xorg-server plasma plasma-wayland-session egl-wayland sddm sddm-kcm packagekit-qt5 pulseaudio pulseaudio-jack alsa-utils vivaldi pamac-aur pamac-tray-icon-plasma dolphin konsole spectacle onlyoffice-bin ananicy nohang noto-fonts noto-fonts-cjk noto-fonts-emoji htop gewenwiev qbittorent vlc ark unrar rar 7-zip audacious
+		sudo pacman -S xorg xorg-server plasma plasma-wayland-session egl-wayland sddm sddm-kcm packagekit-qt5 pulseaudio pulseaudio-jack alsa-utils vivaldi dolphin konsole spectacle ananicy nohang noto-fonts noto-fonts-cjk noto-fonts-emoji htop gewenwiev qbittorent vlc ark unrar rar 7-zip audacious
 		# Опционально
-			kdeconnect gimp discord steam telegram-desktop haguichi wine winetricks speedcrunch github-desktop timeshift
+			kdeconnect gimp discord steam telegram-desktop haguichi wine winetricks speedcrunch github-desktop timeshift onlyoffice-bin pamac-aur pamac-tray-icon-plasma yay
 		# Настраиваем автозагрузки
 		sudo systemctl enable nohang
 		sudo systemctl enable ananicy
