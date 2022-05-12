@@ -72,15 +72,15 @@
 		# Демонтируем
 		umount /mnt
 		# Монтируем систему
-		mount -o notime,compress=lzo,space_cache,subvol=@ //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt
+		mount -o noatime,compress=lzo,space_cache,subvol=@ //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt
 		# Создаём катологи
 			mkdir -p /mnt/{home,var,boot,.snapshots}
 			# Для efi
 			mkdir /home/boot/efi
 		# Домонтируем систему
-		mount -o notime,compress=lzo,space_cache,subvol=@var //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt/var
-		mount -o notime,compress=lzo,space_cache,subvol=@home //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt/home
-		mount -o notime,compress=lzo,space_cache,subvol=@snapshots //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt/.snapshots
+		mount -o noatime,compress=lzo,space_cache,subvol=@var //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt/var
+		mount -o noatime,compress=lzo,space_cache,subvol=@home //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt/home
+		mount -o noatime,compress=lzo,space_cache,subvol=@snapshots //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt/.snapshots
 		# Монтируем boot
 			# Для efi
 			mount //путь до раздела с типом 'EFI System' (пример /dev/sda1)\\ /boot/efi
