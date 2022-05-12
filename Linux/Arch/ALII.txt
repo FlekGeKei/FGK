@@ -61,6 +61,8 @@
 			mkfs.btrfs //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\
 			# Если неполучилось
 			mkfs.btrfs -f //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\
+                        btrfs check --clear-space-cache v1 //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\
+                        btrfs check --clear-space-cache v2 //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\
 	# Монтируем разделы
 		# Временно монтируем систему
 		mount //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt
