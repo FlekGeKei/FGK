@@ -8,7 +8,7 @@
 			# Смотрим имя безпроводного интерфейса
 			ip a 
 			# Разблокировка wifi
-			rfkill unbloock wifi
+			rfkill unblock wifi
 			# Включаем wifi
 			ip link set //имя безброводного интерфейса(пример wlan0)\\ up
 			# Входим в iwd
@@ -168,25 +168,6 @@
 					grub-install --boot-directory=/boot/efi
 				# Конфигурируем загрузчик
 				grub-mkconfig -o /boot/grub/grub.cfg
-			# Если у вас EFI то можно вместо grub установить rEFInd
-				# Скачиваем rEFInd
-				pacman -S refind gdisk
-				# Установка rEFInd
-				refind-install
-				# Путь до файла может отличаться (^ = ctrl)
-				nano /boot/efi/EFI/refind/refind.conf
-					^w # Поиск
-					arch linux # Это вводим в поле поиска
-					# Заменяем в строчке options "root=PARTUUID=//кучабукв\\ //траляля\\" кучу букв и цифер на раздел на котором установлина система (пример /dev/sda3)
-					options "root=PARTUUID=//путь до раздела с системой\\..."
-					#
-					^X 
-				# 
-				nano /boot/refind-linux.conf 
-					# Удаляеп первые две строчки и оставляем последную чтоб получилось так
-					"Boot with minimal..." "..."
-					#
-					^X
 		# Выходим из системы
 		exit
 	# Всё размонтируем
