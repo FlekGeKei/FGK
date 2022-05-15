@@ -61,30 +61,13 @@
 			mkfs.btrfs //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\
 			# Если неполучилось
 			mkfs.btrfs -f //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\
-                        btrfs check --clear-space-cache v1 //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\
-                        btrfs check --clear-space-cache v2 //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\
 	# Монтируем разделы
-		# Временно монтируем систему
-		mount //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt
-		# Создаём субволы
-		btrfs su cr /mnt/@
-		btrfs su cr /mnt/@home
-		btrfs su cr /mnt/@var
-		btrfs su cr /mnt/@snapshots
-		# Демонтируем
-		umount /mnt
 		# Монтируем систему
-		mount -o noatime,compress=lzo,space_cache,subvol=@ //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt
-		# Создаём катологи
-			mkdir -p /mnt/{home,var,boot,.snapshots}
-			# Для efi
-			mkdir /home/boot/efi
-		# Домонтируем систему
-		mount -o noatime,compress=lzo,space_cache,subvol=@var //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt/var
-		mount -o noatime,compress=lzo,space_cache,subvol=@home //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt/home
-		mount -o noatime,compress=lzo,space_cache,subvol=@snapshots //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt/.snapshots
+		mount //путь до раздела с типом 'Linux filesystem' (пример /dev/sda3)\\ /mnt
+		mkdir /boot
 		# Монтируем boot
 			# Для efi
+			mkdir /boot/efi
 			mount //путь до раздела с типом 'EFI System' (пример /dev/sda1)\\ /boot/efi
 			# Для bios
 			mount //путь до раздела с типом 'EFI System' (пример /dev/sda1)\\ /boot
@@ -95,7 +78,6 @@
 		# Я мог вписать неправильные названия пакетов
 	# Создаём конфиг конфигурации файловых систем
 	genfstab -U /mnt >> /mnt/etc/fstab
-# В файле fstab убираем subvolid=...
 	# Переходим в систему
 	arch-chroot /mnt
 		# Конфигурируем время и дату
@@ -162,13 +144,24 @@
 		# Устанавливаем загрузчик
 			# Установка grub
 				# Скачиваем grub
-				pacman -S grub grub-btrfs
+				pacman -S grub
 				# Установка 
 				grub-install //путь до диска с системой (пример /dev/sda)\\
 					# Если не сработало и на метеринке установлен uefi (efi) биос то
 					grub-install --boot-directory=/boot/efi
 				# Конфигурируем загрузчик
 				grub-mkconfig -o /boot/grub/grub.cfg
+			# Refind
+			pacman -S refind gdisk
+			refind-install
+			nano /boot/refind_linux.conf
+				# Удаляем первые две строчки (^K)
+			nano /boot/efi/EFI/refind/refind.conf
+				^w
+					arch linux
+					# Ввод
+				# В строчке options  "root=PARTUUID=... rw add_efi_memmap" кучю букв заменяем на раздел с системой. Пример:
+					options  "root=PARTUUID=/dev/sda3 rw add_efi_memmap"
 		# Выходим из системы
 		exit
 	# Всё размонтируем
@@ -249,14 +242,27 @@
 			sudo pacman -Syu nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader lib32-opencl-nvidia opencl-nvidia libxnvctrl 
 		# AMD
 			sudo pacman -Syu lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
-	# Ставим окружение рабочего стола например KDE Plasma
-		sudo pacman -S xorg xorg-server plasma plasma-wayland-session egl-wayland sddm sddm-kcm packagekit-qt5 pulseaudio pulseaudio-jack alsa-utils vivaldi dolphin konsole spectacle ananicy nohang noto-fonts noto-fonts-cjk noto-fonts-emoji htop gewenwiev qbittorent vlc ark unrar rar 7-zip audacious
-		# Опционально
-			kdeconnect gimp discord steam telegram-desktop haguichi wine winetricks speedcrunch github-desktop timeshift onlyoffice-bin pamac-aur pamac-tray-icon-plasma yay
-		# Настраиваем автозагрузки
-		sudo systemctl enable nohang
-		sudo systemctl enable ananicy
-		sudo systemctl sddm
+	# Ставим окружение рабочего стола 
+		# Например KDE Plasma
+			sudo pacman -S xorg xorg-server plasma plasma-wayland-session egl-wayland sddm sddm-kcm packagekit-qt5 pulseaudio pulseaudio-jack alsa-utils vivaldi dolphin konsole spectacle ananicy nohang noto-fonts noto-fonts-cjk noto-fonts-emoji htop gewenwiev qbittorent vlc ark unrar rar 7-zip audacious playerctl
+			# Опционально
+				kdeconnect gimp discord steam telegram-desktop haguichi wine winetricks speedcrunch github-desktop onlyoffice-bin pamac-aur pamac-tray-icon-plasma yay
+			# Настраиваем автозагрузки
+			sudo systemctl enable nohang
+			sudo systemctl enable ananicy
+			sudo systemctl sddm
+		# Sway
+			sudo pacman -Syu sway xorg kitty wofi waybar htop man network-manager-applet alsa-lib alsa-utils pipewire-pulse noto-fonts noto-fonts-cjk noto-fonts-emoji mako wf-recorder slurp grim breeze-icons breeze-gtk breeze fuse ananicy vlc qbittorent ark unrar nohang vivaldi dolphin sddm pavucontrol qt5ct otf-font-awesome playerctl dolphin
+			sudo echo -e "\nHandleLidSwitch=ignore" >> /etc/systemd/logind.conf
+			mkdir ~/{Music,Documents,Download,Pictures}
+			Конфиги мои брать https://github.com/FlekGeKei/FGK
+			su && echo -e 'QT_QPA_PLATFORMTHEME=qt5ct\nQT_STYLE_OVERRIDE=Breeze' >> /etc/environment && exit
+			sudo systemctl enable sddm
+			sudo systemctl enable ananicy
+			sudo systemctl enable nohang
+			# Автозагрузка
+			sudo mkdir /etc/sddm.conf.d
+			sudo echo -e '[Autologin]\nUser=//созданный пользователь\\ \nSession=sway.desktop' >> /etc/sddm.conf.d/autologin.conf
 	# Перезагружаемся
 	# Необязательная настройка
 		# Установка java
