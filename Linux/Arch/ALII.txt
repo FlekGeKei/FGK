@@ -252,7 +252,7 @@
 			sudo systemctl enable ananicy
 			sudo systemctl sddm
 		# Sway
-			sudo pacman -Syu sway xorg kitty wofi waybar htop man network-manager-applet alsa-lib alsa-utils pipewire-pulse noto-fonts noto-fonts-cjk noto-fonts-emoji mako wf-recorder slurp grim breeze-icons breeze-gtk breeze fuse ananicy vlc qbittorent ark unrar nohang vivaldi dolphin sddm pavucontrol qt5ct otf-font-awesome playerctl dolphin
+			sudo pacman -Syu sway xorg kitty wofi waybar htop man network-manager-applet alsa-lib alsa-utils pipewire-pulse noto-fonts noto-fonts-cjk noto-fonts-emoji mako wf-recorder slurp grim breeze-icons breeze-gtk breeze fuse ananicy vlc qbittorent ark unrar nohang vivaldi dolphin sddm pavucontrol qt5ct otf-font-awesome playerctl dolphin ntp
 			sudo echo -e "\nHandleLidSwitch=ignore" >> /etc/systemd/logind.conf
 			mkdir ~/{Music,Documents,Download,Pictures}
 			Конфиги мои брать https://github.com/FlekGeKei/FGK
@@ -260,6 +260,7 @@
 			sudo systemctl enable sddm
 			sudo systemctl enable ananicy
 			sudo systemctl enable nohang
+			sudo timedatectl set-ntp true 
 			# Автозагрузка
 			sudo mkdir /etc/sddm.conf.d
 			sudo echo -e '[Autologin]\nUser=//созданный пользователь\\ \nSession=sway.desktop' >> /etc/sddm.conf.d/autologin.conf

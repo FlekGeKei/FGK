@@ -207,6 +207,7 @@ input * {
 # Приложения на рабочих столах
 #assign [app_id=""] workspace 
 
+
 # Отступы
 gaps inner 2
 gaps outer 2
@@ -219,7 +220,7 @@ default_border pixel
 smart_borders on
 
 # Шрифты
-font pango:Noto Sans 10
+#font pango:Noto Sans 10
 
 # waybar
 bar {
@@ -238,15 +239,13 @@ exec_always {
     gsettings set $gnome-schema cursor-theme 'breeze_cursors'
     gsettings set $gnome-schema font-name 'Noto Sans'
 }
-seat seat0 xcursor_theme "breeze_cursors"
-exec_always gsettings set org.gnome.desktop.interface cursor-theme "breeze_cursors"
 
 # Рамка
 client.focused          #3daee9 #3daee9 #3daee9 #3daee9
-client.focused_inactive #1b1e20 #1b1e20 #1b1e20 #1b1e20
-client.unfocused        #1b1e20 #1b1e20 #1b1e20 #1b1e20
-client.urgent           #1b1e20 #1b1e20 #1b1e20 #1b1e20
-client.placeholder      #1b1e20 #1b1e20 #1b1e20 #1b1e20
+client.focused_inactive #2a2e32 #2a2e32 #2a2e32 #2a2e32
+client.unfocused        #2a2e32 #2a2e32 #2a2e32 #2a2e32
+client.urgent           #2a2e32 #2a2e32 #2a2e32 #2a2e32
+client.placeholder      #2a2e32 #2a2e32 #2a2e32 #2a2e32
 
 # Обои
 output * bg ~/.config/sway/wallpaper/osu1.jpg fill
