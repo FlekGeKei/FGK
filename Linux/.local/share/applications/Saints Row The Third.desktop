@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+NoDisplay=false
+Terminal=false
+Exec=/home/flekgekei/Games/Saints\ Row\ The\ Third/start.sh
+Icon=/home/flekgekei/Games/Saints Row The Third/language_setup.png
+Name=Saints Row The Third
+Comment=
+Categories=Games

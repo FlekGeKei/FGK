@@ -72,7 +72,7 @@
         // "timezone": "America/New_York",
         "format": " {:%I:%M %p}",
         "tooltip-format": "<big>{:%I:%M %p}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%d-%m-%Y}"
+        "format-alt": " {:%d.%m.%Y}"
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
