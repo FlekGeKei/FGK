@@ -1,39 +1,39 @@
 # FGK
-/                   -`                  /
+                   -`                  /
 
-/                  .o+`                 /
+                  .o+`                 /
 
-/                 `ooo/                 /
+                 `ooo/                 
 
-/                `+oooo:                /
+                `+oooo:                
 
-/               `+oooooo:               /
+               `+oooooo:               
 
-/               -+oooooo+:              /
+               -+oooooo+:              
 
-/             `/:-:++oooo+:             /
+             `/:-:++oooo+:             
 
-/            `/++++/+++++++:            /
+            `/++++/+++++++:            
 
-/           `/++++++++++++++:           /
+           `/++++++++++++++:           
 
-/          `/+++ooooooooooooo/`         /
+          `/+++ooooooooooooo/`         
 
-/         ./ooosssso++osssssso+`        /
+         ./ooosssso++osssssso+`        
 
-/        .oossssso-````/ossssss+`       /
+        .oossssso-````/ossssss+`       
 
-/       -osssssso.      :ssssssso.      /
+       -osssssso.      :ssssssso.      
 
-/      :osssssss/        osssso+++.     /
+      :osssssss/        osssso+++.     
 
-/     /ossssssss/        +ssssooo/-     /
+     /ossssssss/        +ssssooo/-     
 
-/   `/ossssso+/:-        -:/+osssso+-   /
+   `/ossssso+/:-        -:/+osssso+-   
 
-/  `+sso+:-`                 `.-/+oso:  / 
+  `+sso+:-`                 `.-/+oso:   
 
-/ `++:.                           `-/+/ /
+ `++:.                           `-/+/ 
 
-/ .`                                 `/ /
+ .`                                 `/ 
 
