@@ -81,7 +81,7 @@ set $menu dmenu_path | wofi --show drun -I | xargs swaymsg exec --
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+e exec swaynag -t warning -m 'Вы нажали ярлык выхода. Вы действительно хотите выйти из Sway? Это завершит вашу сессию Wayland.' -B 'Да, выйти из sway' 'swaymsg exit'
 #
 # Moving around:
 #
@@ -232,15 +232,16 @@ exec_always {
     gsettings set $gnome-schema gtk-theme 'Breeze-Dark'
     gsettings set $gnome-schema icon-theme 'breeze-dark'
     gsettings set $gnome-schema cursor-theme 'breeze_cursors'
-    gsettings set $gnome-schema font-name 'Noto Sans'
+    gsettings set $gnome-schema font-name 'Noto Sans 10'
 }
 
 # Рамка
-client.focused          #3daee9 #3daee9 #3daee9 #3daee9
-client.focused_inactive #2a2e32 #2a2e32 #2a2e32 #2a2e32
-client.unfocused        #2a2e32 #2a2e32 #2a2e32 #2a2e32
-client.urgent           #2a2e32 #2a2e32 #2a2e32 #2a2e32
-client.placeholder      #2a2e32 #2a2e32 #2a2e32 #2a2e32
+client.focused          #bdc3c7 #3daee9 #232629 #3daee9 #3daee9
+client.focused_inactive #31363b #31363b #bdc3c7 #41535B #31363b
+client.unfocused        #31363b #232629 #bdc3c7 #31363b #31363b
+client.urgent           #da4453 #da4453 #232629 #da4453 #da4453
+client.placeholder      #232629 #232629 #bdc3c7 #232629 #232629
+client.background       #eff0f1
 
 # Обои
 output * bg ~/.config/sway/wallpaper/osu1.jpg fill
