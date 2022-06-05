@@ -6,11 +6,11 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-    "sway/workspaces", 
+    "sway/workspaces",
+    #"custom/right2", "custom/right",
     "sway/mode",
     ],
     "modules-center": [
-    "sway/window"
     ],
     "modules-right": [
     "tray", 
@@ -116,6 +116,25 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
+    },
+    "custom/left": {
+        "format": "",
+        "tooltip": false,
+    },
+
+    "custom/left2": {
+        "format": "",
+        "tooltip": false,
+    },
+
+    "custom/right": {
+        "format": "",
+        "tooltip": false,
+    },
+
+    "custom/right2": {
+        "format": "",
+        "tooltip": false,
     },
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder

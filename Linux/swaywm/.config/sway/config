@@ -193,7 +193,7 @@ bindsym $mod+r mode "resize"
 # Раскладка клавиатупы
 input * {
     xkb_layout us,ru
-    xkb_options grp:ctrl_shift_toggle
+    xkb_options grp:caps_toggle
 }
 
 # Автозапуск приложений

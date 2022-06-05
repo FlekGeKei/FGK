@@ -22,7 +22,7 @@ window#waybar.solo {
 */
 
 window#waybar.termite {
-    background-color: #3F3F3F;
+    background-color: #3daee9;
 }
 
 window#waybar.chromium {
@@ -179,4 +179,21 @@ label:focus {
     color: #ffffff;
     padding: 0 0px;
     margin: 0 5px;
+}
+
+#custom-right,
+#custom-left {
+    font-size: 20px;  /*РАЗМЕР ШРИФТА*/
+    color: #ffffff;  /*ЦВЕТ*/
+    padding: 0 0px; /*ВНУТРЕННИЙ ОТСТУП*/
+    margin: 0 0px; /*ВНЕШНИЙ ОТСТУП*/
+}
+
+#custom-right2,
+#custom-left2 {
+    font-size: 20px;  /*РАЗМЕР ШРИФТА*/
+    color: #8ed7fa;  /*ЦВЕТ*/
+    background: #ffffff; /*ЦВЕТ ФОНА*/
+    padding: 0 0px; /*ВНУТРЕННИЙ ОТСТУП*/
+    margin: 0 0px; /*ВНЕШНИЙ ОТСТУП*/
 }
