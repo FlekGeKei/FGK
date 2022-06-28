@@ -7,7 +7,6 @@
     // Choose the order of the modules
     "modules-left": [
     "sway/workspaces",
-    #"custom/right2", "custom/right",
     "sway/mode",
     ],
     "modules-center": [
@@ -17,8 +16,8 @@
     "network",
     "custom/media",
     "pulseaudio", 
-    "keyboard-state",
-    "sway/language", 
+    "keyboard-state", 
+    "sway/language",
     "clock",
     "custom/power"
     ],
@@ -83,6 +82,31 @@
         "format-disconnected": "⚠",
         "format-alt": "{essid} {ifname}: {ipaddr}/{cidr}"
     },
+    "mpd": {
+        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ",
+        "format-disconnected": "Disconnected ",
+        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+        "interval": 10,
+        "consume-icons": {
+            "on": " " // Icon shows only when "consume" is on
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ", // Icon grayed out when "random" is off
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)"
+    },
     "custom/media": {
         "format": "{icon}{}",
         "return-type": "json",
@@ -102,8 +126,8 @@
         // "scroll-step": 1, // %, can be a float
         "format": "{format_source} {icon} {volume}%",
         "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
+        "format-bluetooth-muted": "婢 {icon} {format_source}",
+        "format-muted": "婢 {format_source}",
         "format-source": "{volume}%",
         "format-source-muted": "",
         "format-icons": {
@@ -141,4 +165,3 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     }
 }
-
