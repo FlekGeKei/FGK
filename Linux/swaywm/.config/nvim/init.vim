@@ -1,9 +1,6 @@
 :set number
-:set tabstop=4
-:set smarttab
 :set mouse=
 :set relativenumber
-:set softtabstop=4
 :set hls
 call plug#begin('~/.config/nvim')
 Plug 'https://github.com/vim-airline/vim-airline'
